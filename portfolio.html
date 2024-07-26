@@ -1,0 +1,99 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Mi sitio CV </title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="css/site.css">
+    <link href="https://css.gg/css" rel="stylesheet" />
+    <script src="js/site.js"></script>    
+
+</head>
+
+<body>
+    <aside>
+        <div class="main-content">
+            <aside>
+                <div class="profile">
+                    <img src="MEDIA/avatar/logoshs.jpg" class="my-photo" id="photo-profile"/>
+                    
+                    <div>
+                      
+                        <h2 class="title">Gustavo Garcia Torres</h2>
+                        <div class="badge-profile">M@ster</div>
+                       
+                       
+                            <div class="social">
+                                <a href="https://www.facebook.com/gustavogarciatorres" target="_blank">
+                                    <i class="gg-facebook"></i></a>
+                                <a href="https://www.twitter.com" target="_blank">
+                                    <i class="gg-twitter"></i></a>                                               
+                                <a href="https://www.youtube.com/@gustavogarciatorres5869" target="_blank">
+                                    <i class="gg-Youtube"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class='gg-instagram'></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="info">
+
+                        <ul class="contacts-block">
+                            <li class="contacts-block-item"> <i class="gg-calendar"></i> En </li>
+                            <li class="contacts-block-item"> <i class="gg-pin"></i> Puebla, Mx. </li>
+                            <li class="contacts-block-item"><a href="mailto:example@mail.com"> <i class="gg-mail"></i> gugarciats@cobaep.edu.mx </a></li>
+                            <li class="contacts-block-item"> <i class="gg-phone"></i> 22-21-42-86-18 </li>
+                            <li class="contacts-block-item"><a href="skype:skype-example"> skype:solucionshscompany_2009 </a></li>
+                        </ul>
+                        <a class="btn" href="MEDIA/L04.pdf"> Curriculum Vitae </a>
+                    </div>
+                </div>
+            </aside>
+            
+            <section class="resume">
+                <header>
+                    <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"> </i>
+                    </div>
+                    <div class="inner-menu js-menu">
+                        <ul class="nav">
+                          <li class="nav_item"><a class="active" href="index.html"> Información Personal </a></li>
+                          <li class="nav_item"><a href="portfolio.html">Galeria</a></li>
+                          <li class="nav_item"><a href="pagina3.html">Servicios Generales</a></li>
+                      </ul>
+                    </div>
+                </header>
+                
+                <div>
+                <h2 class="title bordered"> Galeria </h2>
+                <div class="portfolio">
+                    <img src="resources/imagen1.jpg" onclick="showImage(this)">
+                    <img src="resources/imagen2.jpg" onclick="showImage(this)">
+                    <img src="resources/imagen3.jpg" onclick="showImage(this)">
+                    <img src="resources/imagen4.jpg" onclick="showImage(this)">
+                    <img src="resources/imagen5.jpg" onclick="showImage(this)">
+                    <img src="resources/imagen6.jpg" onclick="showImage(this)">
+                    <img src="resources/imagen7.jpg" onclick="showImage(this)">
+                    <img src="resources/imagen8.jpg" onclick="showImage(this)">
+                    </div>
+                   
+                    <div class="modal" id="preview">
+                        <div><a class="close" onclick="closeModal()"><i class="gg-close-r"></i>&nbsp;Cerrar&nbsp;</a> 
+                    </div>
+                 
+                </div>          
+            </div>   
+            </section>
+            
+        </div>
+
+        <footer>
+         Diseñador: By solucionshs 
+            </footer>
+</body>
+
+</html>

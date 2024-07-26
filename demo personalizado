@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        
+        <link rel="stylesheet" href="CSS/mobile.css"/> 
+        <script src="JS/site.js"></script>      
+    </HEAD>
+        <body>
+            <div>
+                <div class="mi-contenedor">
+            </div>
+            <input type="text" id="user-name" placeholder="ingresas tu nombre" />
+            <button onclick="saludar()">Hola </button>
+            </body>
+</html>

@@ -1,0 +1,32 @@
+:root{
+    font-size: 12px;
+}
+
+body{
+font-size: 10px;    
+}
+.mi-contenedor{
+    background-color:orange;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-gap: 3rem;
+    /*Em= valor de font-size de mi elemento padre= 30 px
+    rem= valor de font-size de mi elemento :root
+    mobile-first*/
+    grid-template-columns: repeat (2,350px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san-serif;
+    font-size: 20px;
+}
+
+.first{
+    font-size: 1em
+}
+
+@media (max-width:500px) and (orientation:portrait) {
+
+    .mi-contenedor{
+        background-color:aqua;
+        grid-template-columns: repeat (2,1fr);
+        grid-template-columns: max-content;
+    }
+}
